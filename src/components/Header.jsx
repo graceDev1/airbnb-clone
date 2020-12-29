@@ -1,6 +1,6 @@
 
 import React from 'react'
-import '../stype/Header.css';
+import '../style/Header.css';
 import SeachIcon from '@material-ui/icons/Search';
 import LanguageIcon from '@material-ui/icons/Language';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
@@ -13,7 +13,6 @@ function Header() {
             className="header__icon"
             src="https://i.pinimg.com/originals/3c/bf/be/3cbfbe148597341fa56f2f87ade90956.png" 
             alt=""/>
-
             <div className="header__center">
                 <input type="text"/>
                 <SeachIcon/>
